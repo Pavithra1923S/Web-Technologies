@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Feedback</title><style>
+    #red{
+       color: red; 
+    }
+    .submitbutton{
+        background-color: rgb(113, 113, 241);
+        color: white;
+       border-radius: 10px; 
+    }
+    #last
+    {
+        color: black;
+    }
+    </style></head>
+    <body>
+        <form>
+            <div>
+                <label for="userName">Name</label>
+                <span id="red">*</span>
+                <span>:</span>
+                <input type="text" id="userName" placeholder="Your Name" required>
+            </div>
+            <br>
+            <div>
+                <label for="Emaill">Email</label>
+                <span id="red">*</span>
+                <span>:</span>
+                <input type="email" id="Emaill" placeholder="Your Email" required>
+            </div>
+            <br>
+            <div>
+                <p>Whether the information given is relevent?</p>
+                <div>
+                    <label for="first">1</label>
+                    <input type="radio" name="radioName" id="first">
+                </div>
+                <div>
+                    <label for="second">2</label>
+                    <input type="radio" name="radioName" id="second">
+                </div>
+                <div>
+                    <label for="third">3</label>
+                    <input type="radio" name="radioName" id="third">
+                </div>
+                <div>
+                    <label for="fourth">4</label>
+                    <input type="radio" name="radioName" id="fourth">
+                </div>
+                <div>
+                    <label for="fifth">5</label>
+                    <input type="radio" name="radioName" id="fifth">
+                </div>
+            </div>
+            <br>
+            <div ><input type="submit" class="submitbutton"></div>
+        </form>
+    </body>
+</html>
